@@ -1,0 +1,16 @@
+import re 
+import requests 
+
+response = requests.get("https://github.com/trending")
+output = response.text
+
+top =re.search('</span>(\s){1,}([a-zA-Z+]{1,})', output)
+output = output[top.end():]
+second = re.search('</span>(\s){1,}([a-zA-Z+]{1,})',output)
+output = output[second.end():]
+third = re.search ('</span>(\s){1,}([a-zA-Z+]{1,})',output)
+print("Top 3 trending repositories on GitHub:")
+print("\t1. " + str(top.group(2)))
+print("\t2. " + str(second.group(2)))
+print("\t3. " + str(third.group(2)))
+
