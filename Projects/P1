@@ -1,0 +1,18 @@
+import random 
+import sys
+
+def __add():
+    print("Restraunt to add:")
+    restraunt = input()
+    with open("foods.txt", "a") as f:
+        f.write("\n" + restraunt)
+for args in sys.argv:
+    if args =="add":
+        __add()
+        exit()
+foods = open("foods.txt", "r")
+data = []
+for line in foods:
+    data.append(line)
+print("Restraunt we chose was:")
+print(data[random.randrange(0,len(data))])
