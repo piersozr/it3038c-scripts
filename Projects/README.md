@@ -1,3 +1,11 @@
+#Project 1 - Zach 
+Have you ever been indecisive when picking food well here you go, you can have this script easily tell you.
+Type `python P1` into the command line and BOOM, you have a food place.
+You can also add a chain by simply typeing `python P1 add` and it allows you to add any restraunt you want. 
+Go on, give it a try!
+
+
+
 # Project 2 - Zach
 - Expanding upon server stats, implemented SMTP scripting to allow server-stat receipts emailed directly to those interested!
 To run the script put `node P2`exactly how it is
