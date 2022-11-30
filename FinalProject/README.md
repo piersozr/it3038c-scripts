@@ -7,7 +7,8 @@
 
 # Instructions
  - [X] install pygame
- - `python3 -m pip install -U pygame --user`
+ - `python -m pip install -U pygame --user`
  - [X] run game
- - `python3 .\SkyFall.py
- - [X] grade well
+ - `python .\SkyFall.py`
+ - [X] play with arrow keys and space
+ - [X] High Score: 163
