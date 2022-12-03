@@ -7,7 +7,9 @@
 
 # Instructions
  - [X] install pygame
- - `python3 -m pip install -U pygame --user`
- - [X] run game
- - `python3 .\SkyFall.py
- - [X] grade well
+ - `python -m pip install -U pygame --user`
+ - [X] run game 
+ - `python .\SkyFall.py`
+ - [X] Dont use pyhton 3.11, use python 3.10
+ - [X] Have fun, Enjoy!
+ - `High Score: 98`
